@@ -4,8 +4,8 @@ import os
 import openai
 import speech_recognition as sr
 
-openai.organization = "org-nfGaYEiK1HzHuOEyvWiaxEwr"
-openai.api_key = "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"
+openai.organization = "YOur ORGANISATION"
+openai.api_key = "YOUR KEY"
 openai.Model.list()
 
 engine = pyttsx3.init()
